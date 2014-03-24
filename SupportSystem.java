@@ -33,7 +33,6 @@ public class SupportSystem
     public void start()
     {
         boolean finished = false;
-
         printWelcome();
 
         while(!finished) {
