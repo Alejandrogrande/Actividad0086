@@ -31,7 +31,7 @@ public class Responder
     public String generateResponse()
     {
         Random aleatorio= new Random();
-        int nuevaRespuesta = aleatorio.nextInt(5);
+        int nuevaRespuesta = aleatorio.nextInt(respuestas.size());
         return(respuestas.get(nuevaRespuesta));
     }
 }
